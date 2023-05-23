@@ -19,19 +19,18 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="drawer">
-          <input id="my-drawer" type="checkbox" className="drawer-toggle" />
-          <div className="drawer-content ">
+        <div className="drawer ">
+          <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
+          <div className="drawer-content flex flex-col items-center justify-center">
             <NavTop />
-            {/* <!-- Page content here --> */}
-            {children}
+            <main>{children}</main>
           </div>
           <div className="drawer-side">
-            <label htmlFor="my-drawer" className="drawer-overlay"></label>
+            <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
             <NavSide />
-            <NavBottom />
           </div>
         </div>
+        <NavBottom />
       </body>
     </html>
   );
