@@ -1,6 +1,6 @@
-export default function Header() {
+export default function NavTop() {
   return (
-    <div className="navbar bg-base-100">
+    <div className="navbar bg-base-100 fixed top-0 left-0 z-20">
       <div className="navbar-start">
         <label htmlFor="my-drawer" className="btn btn-primary drawer-button">
           Open drawer
