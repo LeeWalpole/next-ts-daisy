@@ -6,7 +6,7 @@ export default function NavBottom() {
   const pathname = usePathname();
 
   return (
-    <div className="btm-nav btm-nav-md">
+    <div className="btm-nav btm-nav-md lg:hidden">
       <button>
         <Link href="/">
           <span>

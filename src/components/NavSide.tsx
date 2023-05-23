@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 export default function NavSide() {
   const pathname = usePathname();
   return (
-    <ul className="menu bg-base-100 w-56 p-2 rounded-box">
+    <ul className="menu bg-base-100  px-1 py-3 w-72 mt-18 lg:mt-20">
       <li>
         <Link
           href="/"
