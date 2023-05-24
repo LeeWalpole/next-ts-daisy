@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function NavTop() {
   return (
     <div className="navbar bg-base-100 fixed top-0 left-0 lg:fixed lg:top-0 lg:left-0 z-50 lg:w-72 h-18 lg:h-20">
-      <div className="navbar-start xl:hidden">
+      <div className="navbar-start lg:hidden">
         {/* <label
           htmlFor="my-drawer-2"
           className="btn btn-primary drawer-button lg:hidden"
